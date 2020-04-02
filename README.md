@@ -86,7 +86,7 @@ Widget build(BuildContext context) {
 #### Controller Property
 property | description | default
 ---------|-------------|-------
-cameraLens | CameraLens.front or CameraLens.back (optional) | CameraLens.back
+cameraLens | `CameraLens.front` or `CameraLens.rear` (optional) | `CameraLens.back`
 
 
 ### Todo

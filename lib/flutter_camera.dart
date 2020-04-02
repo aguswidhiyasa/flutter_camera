@@ -5,7 +5,7 @@ import 'package:flutter/widgets.dart';
 
 MethodChannel _channel = const MethodChannel('bebena/flutter_camera');
 
-enum CameraLens { front, back, extenal }
+enum CameraLens { front, rear, extenal }
 
 enum ResolutionPreset { low, medium, high, veryHigh, ultraHigh, max }
 
@@ -37,7 +37,7 @@ String _parseCameraLensToString(CameraLens lens) {
   switch (lens) {
     case CameraLens.front:
       return "front";
-    case CameraLens.back:
+    case CameraLens.rear:
       return "back";
     default: 
       return "back";
