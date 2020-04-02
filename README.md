@@ -1,6 +1,6 @@
 # flutter_camera
 
-Inspired from [`camera`](https://pub.dev/packages/camera) plugin from flutter team, but make support for minSdkVersion 16
+Inspired from [`camera`](https://pub.dev/packages/camera) plugin from flutter team, but making support for minSdkVersion 16 (Android)
 
 
 > The plugin still in development
@@ -9,7 +9,7 @@ Inspired from [`camera`](https://pub.dev/packages/camera) plugin from flutter te
 
 > The lib has not been published to [pub.dev](https://pub.dev/)
 
-Clone and add to your `pubspec.yaml`
+Add to your `pubspec.yaml`
 
 ```
     dependencies:
